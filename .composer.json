@@ -1,0 +1,26 @@
+{
+  "name": "wp-wrapper/error-handling",
+  "description": "Error handling for WP Wrapper.",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress"
+  ],
+  "homepage": "https://github.com/wp-wrapper/error-handling",
+  "authors": [
+    {
+      "name": "Sven Wagener",
+      "email": "sven@awesome.ug",
+      "homepage": "http://svenwagener.com",
+      "role": "Head of Development"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wp-wrapper/error-handling/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPWrapper\\ErrorHandling\\": "src/"
+    }
+  }
+}
